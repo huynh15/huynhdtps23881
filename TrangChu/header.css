@@ -1,0 +1,137 @@
+header{
+    height: 100px;
+    background-color: #ee4d2d;
+    width: 80%;
+    margin: 0 auto;
+    position: fixed;
+    top:0px;
+    right: 0px;
+    left:0px;
+    z-index: 9999;
+}
+.header{
+    background-color:#ee4d2d;
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    top:0px;
+    z-index: 9999;
+  
+}
+/* CSS cho header 1 */
+.header_1{
+    height: 30px;
+    background-color:#ee4d2d;
+    width: 75%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.imglogo{
+    height: 40px;
+    width: 10%; 
+    background-color:#ee4d2d;
+    background-image: url(http://orderhangquangchau.com/upload/images/kinh-nghiem-ban-hang-order.png);
+    background-size:100% 100%;
+    position: relative;
+    top:10px;
+}
+.imglogo a{
+    position: absolute;
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+    left: 1300px;
+    top: 5px;
+    z-index: 9999;
+}
+.input{
+    background-color:#ee4d2d;
+    height: 40px;
+    width: 700px;
+    margin-left: 200px;
+    position: relative;
+    bottom:2px;
+}
+.input input{
+    width: 1000px;
+    border: none;
+    height: 40px;
+    border-radius: 2px;
+}
+/* CSS cho nut tim kiem */
+.kinh{
+    background-color:#ee4d2d;
+    width: 50px;
+    height: 35px;
+    border-radius: 2px;
+    top: 3px;
+    position: absolute;
+    left: 945px;
+    
+}
+.kinh img{
+    margin-top:10px;
+    margin-left: 15px;
+}
+/* CSS cho thanh đăng nhập */
+.dangky a{
+    color:white;
+    text-decoration: none;
+    float:right;
+    font-size: 13px;
+    margin-left: 5px;
+}
+.dangky{
+    float:right;
+    position: relative;
+    left: 230px;
+    bottom: 25px;
+}
+/* CSS cho header_2 */
+.header_2{
+    height: 50px;
+    background-color:#ee4d2d;
+    width: 100%;
+}
+.menu_con{
+    width: 50%;
+    background-color:#ee4d2d;
+    margin-left: 200px;
+    margin-top:10px;
+    height: 20px;
+}
+.menu_con>a{
+    color:white;
+    text-decoration: none;
+    margin-right: 20px;
+    position: relative;
+    top:1px;
+}
+.menu_con a:hover{
+    color: gainsboro;
+    
+}
+.imglogo_2{
+    background-image: url(https://salt.tikicdn.com/ts/upload/e5/1d/22/61ff572362f08ead7f34ce410a4a6f96.png);
+    background-size:100% 100%;
+    height: 10px;
+    width: 7%;
+    position: relative;
+    top:25px;
+    left: 30px;
+}
+.submenu{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;   
+    margin-top: 10px;
+}
+.submenu_1 a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    line-height: 20px;
+}
+.submenu_1 a:hover{
+    color: gainsboro;
+}
