@@ -1,0 +1,78 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.container>header {
+    background-image: url("image/sinhvien.jpg");
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 20%;
+}
+
+.container img {
+    height: 200px;
+    width: 100%;
+}
+
+.container>nav {
+    line-height: 40px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.container>article {
+    min-height: 400px;
+    background-color: white;
+    width: 75%;
+    float: left;
+}
+
+.container>aside {
+    min-height: 400px;
+    background-color: lightgray;
+    width: 25%;
+    float: right;
+}
+
+.container>footer {
+    line-height: 50px;
+    background-color: lightcyan;
+    clear: both;
+    border-top: 5px double orangered;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.container>nav>a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.container>na>a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.container>article>img {
+    width: 100%;
+    height: 400px;
+}
+
+iframe[name=page] {
+    width: 100%;
+    min-height: 400px;
+}
+
+aside>div {
+    padding: 10px;
+    text-align: center;
+}
